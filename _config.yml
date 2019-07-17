@@ -1,62 +1,43 @@
-# Site settings
-url: "https://sudo.ubuntu-tr.net"
+title: NoteTheme
+description: You cannot remember everything.
+baseurl: "/NoteTheme"
+url: ""
+repository: dinhanhthi/NoteTheme
+paginate: 28
 
-themeDir: theme/ubuntu-tr
-listDir: _theme/ubuntu-tr/layouts/list
-blockDir: _theme/ubuntu-tr/layouts/block
-layouts_dir:  ./_theme/ubuntu-tr/layouts
-assetsDir: assets/post/
-includes_dir: .
+banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
+
+# MatJek specific configurations
+user: 
+  name: "Math2IT"
+  email: "dinhanhthimail@gmail.com"
+  website: "math2it.com"
+  avatar: "/assets/res/user.png"
+  github: "dinhanhthi"
+google_tracking_id: ""
+google_site_verification: ""
+disqus_shortname: this-site
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:title
+
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 sass:
   style: compressed
 
-timezone: Europe/Istanbul
-
-collections:
-  theme:
-    output: false
-  extension:
-    output: false
-  category:
-    output: true
-    permalink: /:title/
-  tag:
-    output: true
-    permalink: /etiket/:path
-  other:
-    output: true
-    permalink: /o/:title
-  root:
-    output: true
-    permalink: /:path
-
-defaults:
-  - scope:
-      path: ""
-      type: category
-    values:
-      type: category
-      layout: layout121
-  - scope:
-      path: ""
-      type: tag
-    values:
-      type: tag
-      layout: layout121
-  - scope:
-      path: ""
-      type: posts
-    values:
-      type: post
-      layout: layout121
-  - scope:
-      path: ""
-      type: other
-    values:
-      type: other
-      layout: layout121
+  future: true
