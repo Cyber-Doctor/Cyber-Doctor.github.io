@@ -1,19 +1,15 @@
-# PRoJEct-NeGYa
+Ubuntu-TR Sudo Portal v0.3
+===========================
 
-## 特性
+[![Join the chat at https://gitter.im/ubuntu-tr/ubuntu-tr.github.io](https://badges.gitter.im/ubuntu-tr/ubuntu-tr.github.io.svg)](https://gitter.im/ubuntu-tr/ubuntu-tr.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-1. 整体炫！酷！黑客风！
-2. 多语言支持
-3. 功能和内容完全给老子隔离，字儿啥的全放md或者json里
-* html，css，js -> 100%干功能和样式的活儿，别给我混一起
-* md，json, img/-> 字儿啊，图啥的
-4. 保护眼睛
-* 黑背景防止强光直射
-* 字儿偏黄绿,看着舒服.想变炫酷把main.scss第一行的 $color-primary 改绿了就行
-## 更新日志
+**Kullanım Klavuzu:** [HTML](https://ubuntu-tr.github.io/sudo) - [PDF](https://ubuntu-tr.github.io/assets/post/sudo/sudo.pdf)
 
-2019.6.15：老子就做这一版，凑合能用得了，我可不改了啊！
+**Özellikleri:**
 
-## 用法
-
-和别的一样，百度有的是
+- 100% Github Pages uyumlu ve hiç jekyll eklentisi kullanılmadı.
+- Etiket, kategori ve yazar sayfalarını barındırır.
+- Tam uyumlu Markdown metin düzenleyicisi içerir.
+- En temel yapı oluşturulup özellikler ayrı ayrı olarak tanımlanmıştır. Yeni özellik ekleyip varolan özellikleri çıkarmak oldukça kolaydır.
+- Tema yapısı içerir.
+- Sayfa yapısı bozulmadan görünüm değiştirilebilir.

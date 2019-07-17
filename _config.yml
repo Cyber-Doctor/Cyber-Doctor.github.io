@@ -1,22 +1,62 @@
-## Settings
-title: pRoJEct-NeGYa
-owner: "DeerRIDER"
-# url: "akiritsu.github.io"
-baseurl: ""
-baseurl: "/pRoJEct-NeGYa"
-permalink: /:title/
-description: ""
+# Site settings
+url: "https://sudo.ubuntu-tr.net"
+
+themeDir: theme/ubuntu-tr
+listDir: _theme/ubuntu-tr/layouts/list
+blockDir: _theme/ubuntu-tr/layouts/block
+layouts_dir:  ./_theme/ubuntu-tr/layouts
+assetsDir: assets/post/
+includes_dir: .
+
+# Build settings
 markdown: kramdown
-webrick:
-  headers:
-    Access-Control-Allow-Origin: "*"
-## Global Variables
-email: "akiritsu@outlook.com"
-github: "akiritsu/pRoJEct-NeGYa"
-# path to: css/, fonts/, img/ and js/
-assets_path: "/assets" # i.e. "/assets" 
-statement: "Designed by DeerRIDER, All Rights Reserved"
-# default max toc levels: 1 - 6 (h1 - h6)
-toc_level: 3
-# texts randomly displayed in background
-bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌∽√"
+highlighter: rouge
+
+sass:
+  style: compressed
+
+timezone: Europe/Istanbul
+
+collections:
+  theme:
+    output: false
+  extension:
+    output: false
+  category:
+    output: true
+    permalink: /:title/
+  tag:
+    output: true
+    permalink: /etiket/:path
+  other:
+    output: true
+    permalink: /o/:title
+  root:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      type: category
+      layout: layout121
+  - scope:
+      path: ""
+      type: tag
+    values:
+      type: tag
+      layout: layout121
+  - scope:
+      path: ""
+      type: posts
+    values:
+      type: post
+      layout: layout121
+  - scope:
+      path: ""
+      type: other
+    values:
+      type: other
+      layout: layout121
