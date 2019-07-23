@@ -1,6 +1,11 @@
 <div class="header">
   <nav class="nav_bar">
     <ul>
+      {% else site.title %}
+        <a class="title">{{ site.title }}</a>
+        {% if site.owner != ""%}
+        <a class="owner"> - {{ site.owner }}</a>
+      {% endif %}{% endif %}
       <!-- left header -->
       <li class="li_left">
         <!-- home -->
@@ -87,11 +92,7 @@
             {% endif %}
           </i>
         </a>
-        {% else site.title %}
-        <a class="title">{{ site.title }}</a>
-        {% if site.owner != ""%}
-        <a class="owner"> - {{ site.owner }}</a>
-        {% endif %}{% endif %}
+        //
       </span>
     </ul>
   </nav>
