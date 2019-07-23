@@ -1,4 +1,5 @@
 ---
+title: About
 layout: about
 post_list: "date"
 toc: false
