@@ -5,7 +5,7 @@ toc: false
 home_btn: true
 btn_text: true
 footer: true
-title: ""
+title: "CyberDoctor"
 author: ""
 encrypted_text: false
 permalink: /
