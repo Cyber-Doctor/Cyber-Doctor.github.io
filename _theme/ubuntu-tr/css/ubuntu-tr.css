@@ -52,7 +52,7 @@ footer > nav > div > a:first-child {
     font-weight: bold;
 }
 footer > nav a:hover {
-    color: #E6402A;
+    color: rgb( 0, 43, 54);
     text-decoration: underline;
 }
 
@@ -70,10 +70,10 @@ footer > .bilgi > img {
     margin-right: 10px;
 }
 footer > .bilgi a {
-    color: #772953;
+    color: rgb( 101, 123, 131);
 }
 footer > .bilgi a:hover {
-    color: #E6402A;
+    color: rgb( 7, 54, 66);
 }
 
 
