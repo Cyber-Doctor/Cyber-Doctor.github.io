@@ -1,28 +1,27 @@
-#-------------------
-# Emacs
-*~
-*.elc
-[#]*[#]
-*[#]
-.[#]*
+# Idea files
+.idea/*
 
-
-#-------------------
-# OS junk
+# Mac files
 .DS_Store
-._*
-.Spotlight-V100
-.Trashes
-Thumbs.db
 
-#-------------------
-# site
-_site
-.sass-cache
-.jekyll-metadata
+# Byte-compiled / optimized / DLL files
+*.manifest
+*.spec
+
+# Jekyll dev or build files
+_site/*
+_development_tool/*
+.sass-cache/*
+*.css.map
+*.scssc
+
+# Theme Gem files
 Gemfile.lock
-.jekyll-metadata
-.vscode
-.idea
-.DS_Store
+*.gem
+.gems
+jekyll-theme-type-on-strap.gemspec
 
+# Node js files
+**/node_modules/*
+*-test.md
+*copy.md
