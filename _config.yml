@@ -3,7 +3,7 @@ title: Cyber Doctor
 owner: ""
 # url: "akiritsu.github.io"
 baseurl: ""
-baseurl: "/"
+abouturl: "/about"
 permalink: /:title/
 description: ""
 markdown: kramdown

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="page">
+    {% include background.html %}
+    <div class="container" id="ctner">
+      {% include header.html %}
+      <div class="div_article" id="div_atcl">       
+        <h1>
+          {{ page.title }}
+        </h1>
+        {% include post_info.html %}
+        {{ content }}
+          {% if page.footer == true %}
+          {% include footer.html %}
+          {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

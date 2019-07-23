@@ -13,6 +13,16 @@
           </i>
         </a>
         {% endif %}
+        <!-- about -->
+        {% if page.home_btn != false %}
+        <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
+          <i class="fa fa-user-secret">
+            {% if page.btn_text != false %}
+            <p class="btn_text">About</p>
+            {% endif %}
+          </i>
+        </a>
+        {% endif %}
         <!-- email -->
         {% if site.email != ""%}
         <a class="header_btn" href="mailto://{{ site.email }}">
