@@ -1,6 +1,6 @@
 ---
 title: About
-layout: about
+layout: default
 post_list: "date"
 toc: false
 home_btn: true
