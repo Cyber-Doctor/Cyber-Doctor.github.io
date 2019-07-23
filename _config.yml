@@ -1,9 +1,9 @@
 ## Settings
-title: Cyber Doctor
-owner: "Cyber Doctor"
+title: Cyber-Doctor
+owner: "CyberDoctor"
 # url: "akiritsu.github.io"
 baseurl: ""
-baseurl: "/Cyber Doctor"
+baseurl: "/CyberDoctor"
 permalink: /:title/
 description: ""
 markdown: kramdown
