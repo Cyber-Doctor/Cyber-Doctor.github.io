@@ -1,62 +1,10 @@
-# Site settings
-url: "https://cyber-doctor.github.io/"
+title : Cyber Doctor
+description: 'Cyber Doctor'
 
-themeDir: theme/ubuntu-tr
-listDir: _theme/ubuntu-tr/layouts/list
-blockDir: _theme/ubuntu-tr/layouts/block
-layouts_dir:  ./_theme/ubuntu-tr/layouts
-assetsDir: assets/post/
-includes_dir: .
-
-# Build settings
 markdown: kramdown
 highlighter: rouge
-
-sass:
-  style: compressed
-
-timezone: Asia/Seoul
-
-collections:
-  theme:
-    output: false
-  extension:
-    output: false
-  category:
-    output: true
-    permalink: /:title/
-  tag:
-    output: true
-    permalink: /etiket/:path
-  other:
-    output: true
-    permalink: /o/:title
-  root:
-    output: true
-    permalink: /:path
-
-defaults:
-  - scope:
-      path: ""
-      type: category
-    values:
-      type: category
-      layout: layout121
-  - scope:
-      path: ""
-      type: tag
-    values:
-      type: tag
-      layout: layout121
-  - scope:
-      path: ""
-      type: posts
-    values:
-      type: post
-      layout: layout121
-  - scope:
-      path: ""
-      type: other
-    values:
-      type: other
-      layout: layout121
+logo: false
+paginate: 5
+baseurl: /
+plugins: [jekyll-gist]
+permalink: /:year/:month/:title.html
