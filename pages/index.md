@@ -11,4 +11,4 @@ encrypted_text: false
 permalink: /
 ---
 
-![img-smpl]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/img.jpg)
+![img-mbg]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/imgmg.JPG)
