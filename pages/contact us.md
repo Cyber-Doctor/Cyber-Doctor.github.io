@@ -16,10 +16,11 @@ permalink: /contactus
 >Call:
 >
 >Email: dr.cybersecu@gmail.com
-<br><br>
 
+<br><br>
 ### 위치 안내
-> Address:
+>Address:
 >
-> (28644)충청북도 청주시 서원구 충대로 1 (개신동, 충북대학교)
+>(28644)충청북도 청주시 서원구 충대로 1 (개신동, 충북대학교)
+>
 >1, Chungdae-ro, Seowon-gu, Cheongju-si, Chungcheongbuk-do, Republic of Korea
