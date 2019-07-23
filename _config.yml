@@ -1,120 +1,62 @@
-# SITE CONFIGURATION
-baseurl: "/CyberDoctor"
-url: "https://cyber-doctor.github.io/"
-title: CyberDoctor # site's title
-description: "A website with blog posts and pages" # used by search engines
+# Site settings
+url: "https://sudo.ubuntu-tr.net"
 
-defaults:
-  - 
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      image: assets/img/triangle.png # seo tag
+themeDir: theme/ubuntu-tr
+listDir: _theme/ubuntu-tr/layouts/list
+blockDir: _theme/ubuntu-tr/layouts/block
+layouts_dir:  ./_theme/ubuntu-tr/layouts
+assetsDir: assets/post/
+includes_dir: .
 
-# THEME-SPECIFIC CONFIGURATION
-theme_settings:
-  # Meta
-  avatar: assets/img/triangle.png
-  color_image: /assets/img/lineart.png # In post when you set color
-  favicon: assets/favicon.ico
-
-  # Header and footer text
-  header_text: Change header text in <code>_config.yml</code>
-  header_feature_image: assets/img/pexels/triangular.jpeg
-  footer_text: >
-    Powered by CyberDoctor</a>
-
-  # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: dr.cybersecu@gmail.com # Full email address, e.g. "sam@example.com"
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  gitlab:
-  github: ""
-  google_plus:
-  instagram:
-  keybase:
-  linkedin:  # Full URL
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # Full URL
-  steam:
-  tumblr:
-  twitter: # "twitter username"
-  vimeo:
-  wordpress:
-  youtube:
-
-  # Sharing options
-  share_buttons:
-    facebook: true
-    twitter: true
-    tumblr:
-    pinterest:
-    pocket:
-    reddit: true
-    linkedin:
-    wordpress:
-    email: true
-
-  # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
-  katex: true # Enable if using math markup
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_share_on: "Share on"
-  str_add_to: "Add to"
-  str_email: "Email"
-  str_tweet: "Tweet"
-  str_pin_it: "Pin it"
-  str_next_post: "Next post"
-  str_previous_post: "Previous post"
-  str_next_page: "Next"
-  str_previous_page: "Prev"
-  str_javascript_required_disqus: "Please enable JavaScript to view comments."
-
-  # Post navigation
-  post_navigation: true
-
-  # Colours, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# AUTHORS
-authors:
-  mhagnumdw: # author-id
-    name: Ya7aKaras
-    avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
-    url: 
-  sylhare:
-    name: Sylhare
-    avatar: "assets/img/avatars/sylhare_avatar.png"
-    url: "https://github.com/sylhare"
-
-# PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
-# BUILD SETTINGS
+# Build settings
 markdown: kramdown
 highlighter: rouge
+
 sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
-          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
-# theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap # If using as a remote_theme in github
+  style: compressed
+
+timezone: Europe/Istanbul
+
+collections:
+  theme:
+    output: false
+  extension:
+    output: false
+  category:
+    output: true
+    permalink: /:title/
+  tag:
+    output: true
+    permalink: /etiket/:path
+  other:
+    output: true
+    permalink: /o/:title
+  root:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      type: category
+      layout: layout121
+  - scope:
+      path: ""
+      type: tag
+    values:
+      type: tag
+      layout: layout121
+  - scope:
+      path: ""
+      type: posts
+    values:
+      type: post
+      layout: layout121
+  - scope:
+      path: ""
+      type: other
+    values:
+      type: other
+      layout: layout121

@@ -1,0 +1,3 @@
+---
+title: "metin editörü"
+---

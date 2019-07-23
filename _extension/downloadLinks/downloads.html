@@ -1,0 +1,43 @@
+---
+order: 6
+index: sidebar
+
+name: Ubuntu 18.10
+link_server: http://releases.ubuntu.com/18.10/ubuntu-18.10-live-server-amd64.iso
+link_desktop: http://releases.ubuntu.com/18.10/ubuntu-18.10-desktop-amd64.iso
+
+name2: Ubuntu 18.04.1 (Uzun Süreli Destek)
+link2_server: http://releases.ubuntu.com/18.04/ubuntu-18.04.1-live-server-amd64.iso
+link2_desktop: http://releases.ubuntu.com/18.04/ubuntu-18.04.1-desktop-amd64.iso
+
+header: "Ubuntu İndirme Bağlantısı (64 Bit)"
+---
+<div class="ui card fluid">
+    <div class="content">
+      <img class="ui avatar image" src="{{ site.themeDir }}/images/logo-ubuntu_cof-orange-hex.png"> {{ page.name }}
+    </div>
+    <div class="extra content ui buttons tiny">
+      <a href="{{ page.link_server }}" target="_blank" href="#" class="ui button blue">
+              <i class="cloud download icon"></i>
+        Sunucu</a>
+
+      <a href="{{ page.link_desktop }}" target="_blank" class="ui button orange">
+              <i class="cloud download icon"></i>
+        Masaüstü</a>
+    </div>
+</div>
+
+<div class="ui card fluid">
+    <div class="content">
+      <img class="ui avatar image" src="{{ site.themeDir }}/images/logo-ubuntu_cof-orange-hex.png"> {{ page.name2 }}
+    </div>
+    <div class="extra content ui buttons tiny">
+      <a href="{{ page.link2_server }}" target="_blank" class="ui button blue">
+              <i class="cloud download icon"></i>
+        Sunucu</a>
+
+      <a href="{{ page.link2_desktop }}" target="_blank" class="ui button orange">
+              <i class="cloud download icon"></i>
+        Masaüstü</a>
+    </div>
+</div>
