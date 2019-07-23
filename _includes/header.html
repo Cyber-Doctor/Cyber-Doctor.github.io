@@ -1,11 +1,13 @@
 <div class="header">
   <nav class="nav_bar">
     <ul>
-      {% else site.title %}
+      <span class="span_center">
+        {% else site.title %}
         <a class="title">{{ site.title }}</a>
         {% if site.owner != ""%}
         <a class="owner"> - {{ site.owner }}</a>
-      {% endif %}{% endif %}
+        {% endif %}{% endif %}
+      </span>
       <!-- left header -->
       <li class="li_left">
         <!-- home -->

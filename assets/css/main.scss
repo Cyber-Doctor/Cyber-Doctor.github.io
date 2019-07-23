@@ -83,6 +83,17 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             display: inline-block;
             cursor: pointer;
           }
+          .span_center {
+            float: center;
+            cursor: pointer;
+            max-width: 90%;
+            .title {
+              font-weight: 500;
+            }
+            .owner {
+              font-weight: 200;
+            }
+          }
           .span_right {
             float: right;
             cursor: pointer;
