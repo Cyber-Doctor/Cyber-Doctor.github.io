@@ -1,7 +1,5 @@
 ---
-title: About
 layout: default
-post_list: "date"
 toc: false
 home_btn: true
 btn_text: true
@@ -9,7 +7,7 @@ footer: true
 title: ""
 author: ""
 encrypted_text: false
-permalink: /
+permalink: /about
 ---
 
 # 사이버닥터(CyberDoctor)
