@@ -1,5 +1,5 @@
 # Site settings
-url: "https://sudo.ubuntu-tr.net"
+url: "https://cyber-doctor.github.io/"
 
 themeDir: theme/ubuntu-tr
 listDir: _theme/ubuntu-tr/layouts/list
@@ -15,7 +15,7 @@ highlighter: rouge
 sass:
   style: compressed
 
-timezone: Europe/Istanbul
+timezone: Asia/Seoul
 
 collections:
   theme:
