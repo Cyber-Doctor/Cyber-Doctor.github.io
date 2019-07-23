@@ -1,5 +1,6 @@
 ---
 layout: default
+title: About
 toc: false
 home_btn: true
 btn_text: true

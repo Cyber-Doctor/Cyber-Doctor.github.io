@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Contact us
 toc: false
 home_btn: true
 btn_text: true
@@ -10,7 +11,7 @@ encrypted_text: false
 permalink: /contactus
 ---
 
-## 문의하기(Contact us)
+# 문의하기(Contact us)
 
 ### 연락처
 >Call:
