@@ -11,13 +11,13 @@ permalink: /about
 ---
 
 # 사이버닥터(CyberDoctor)
-갸아아아악
 
+## 사이버닥터는
 
-* Code highlight with Rouge
+'사이버 보안이 곧 국가 보안'인 시대에서 사이버 공격으로부터 안전하지 않은 정보보호 소외계층(교육기관, 중소기업, 산하단체 등)을 위한 보안컨설팅을 제공합니다.
 
+갸아아아아악
 
-## Download and Documentation
-
-[**pRoJEct NeGYa (Github)a**](https://github.com/akiritsu/pRoJEct-NeGYa)
-
+## 연혁
+* 2019.07 : CyberDoctor 개인사업자 등록
+* 2019.08 : CyberDoctor 법인전환, 사회적기업

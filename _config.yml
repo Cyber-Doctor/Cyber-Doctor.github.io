@@ -4,6 +4,7 @@ owner: ""
 # url: "akiritsu.github.io"
 baseurl: ""
 abouturl: "/about"
+abouturl: "/contactus"
 permalink: /:title/
 description: ""
 markdown: kramdown
