@@ -2,7 +2,7 @@
 layout: default
 post_list: "date"
 post_list: ""
-toc: true
+toc: false
 home_btn: true
 btn_text: true
 footer: true
