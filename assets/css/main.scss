@@ -5,10 +5,10 @@ Jekyll Assets: start scss files with two lines of triple dashes
 @charset "utf-8";
 
 // global reset
-$color-primary: rgb(52, 165, 7);
+$color-primary: rgb(131, 148, 150);
 $color-warning: rgb(194, 5, 5);
-$color-bg: rgb(0, 0, 0);
-$color-postbg: rgb(0, 0, 0);
+$color-bg: rgb(0,43, 54);
+$color-postbg: rgb(7, 54, 66);
 $image-background: none;
 @font-face {
   font-family: "Fira Code";
@@ -82,18 +82,6 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             list-style: none;
             display: inline-block;
             cursor: pointer;
-          }
-          .li_center {
-            float: right;
-            text-align: center;
-            cursor: pointer;
-            max-width: 90%;
-            .title {
-              font-weight: 500;
-            }
-            .owner {
-              font-weight: 200;
-            }
           }
           .span_right {
             float: right;
