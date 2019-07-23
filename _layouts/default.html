@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-{% include head.html %}
-
-<body>
-    
-    <div class="page-wrap">
-        {% include header.html %}
-        <main>
-            {{ content }}
-        </main>
+<html>
+  {% include head.html %}
+  <body class="page">
+    {% include background.html %}
+    <div class="container" id="ctner">
+      {% include header.html %}
+      <div class="div_article" id="div_atcl">       
+        <article id="main_atcl" itemscope itemtype="http://schema.org/BlogPosting">
+          {{content}}
+          {% include list_of_articles.html %}
+        </article>
+          {% if page.footer == true %}
+          {% include footer.html %}
+          {% endif %}
+      </div>
     </div>
-    
-    {% include footer.html %}
-
-    <script src="/assets/js/vendor/jquery.min.js"></script>
-    <script src="/assets/js/vendor/semantic.min.js"></script>
-    <script type="/assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>

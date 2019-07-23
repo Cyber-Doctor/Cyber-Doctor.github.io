@@ -1,10 +1,22 @@
-title : Cyber Doctor
-description: 'Cyber Doctor'
-
+## Settings
+title: Cyber Doctor
+owner: "Cyber Doctor"
+# url: "akiritsu.github.io"
+baseurl: ""
+baseurl: "/Cyber Doctor"
+permalink: /:title/
+description: ""
 markdown: kramdown
-highlighter: rouge
-logo: false
-paginate: 5
-baseurl: /
-plugins: [jekyll-gist]
-permalink: /:year/:month/:title.html
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+## Global Variables
+email: "dr.cybersecu@gmail.com"
+#github: "akiritsu/pRoJEct-NeGYa"
+# path to: css/, fonts/, img/ and js/
+assets_path: "/assets" # i.e. "/assets" 
+statement: "Designed by Cyber Doctor, All Rights Reserved"
+# default max toc levels: 1 - 6 (h1 - h6)
+toc_level: 3
+# texts randomly displayed in background
+bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌∽√"
