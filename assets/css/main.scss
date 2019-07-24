@@ -282,11 +282,6 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
 }
 // global basic settings
 body {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
-  -moz-user-select: none;      /* Firefox */
-  -ms-user-select: none;       /* IE 10+ and Edge */
-  user-select: none;           /* Non-prefixed version, currently supported by Chrome and Opera */
   // texts
   h1 {
     font-size: $font-size-h1;
@@ -359,7 +354,6 @@ body {
   }
   img {
     max-width: 100%;
-    //pointer-events: none;
   }
   .blink_text {
     @keyframes blktxt {
