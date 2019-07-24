@@ -133,7 +133,7 @@
 {% endif %} {% if page.maximize != false %}
 <!-- toggle maximize -->
 <script>
-  var ctner_state = 0;
+  var ctner_state = 1;
   var ctner = document.getElementById("ctner");
   function toggle_maximize() {
     if (ctner_state == 0) {
@@ -195,17 +195,5 @@
       document.getElementById("acs_btn").style.display = "none";
     }
   }
-</script>
-
-<script type="text/javascript">
-    if (document.addEventListener) {
-        document.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        }, false);
-    } else {
-        document.attachEvent('oncontextmenu', function () {
-            window.event.returnValue = false;
-        });
-    }
 </script>
 {% endif %}
