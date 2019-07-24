@@ -5,6 +5,7 @@ owner: ""
 baseurl: ""
 abouturl: "/about"
 contacturl: "/contactus"
+posturl: "/post"
 permalink: /:title/
 description: ""
 markdown: kramdown

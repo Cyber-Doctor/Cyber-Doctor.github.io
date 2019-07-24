@@ -32,6 +32,15 @@
             {% endif %}
           </i>
         </a>
+        <!-- post -->
+        {% if page.post_btn != false %}
+        <a class="header_btn" href="{{ site.url }}{{ site.posturl }}">
+          <i class="fa fa-address-card-o">
+            {% if page.btn_text != false %}
+            <p class="btn_text">Contact us</p>
+            {% endif %}
+          </i>
+        </a>
         {% endif %}
         <!-- maximize -->
         {% if page.maximize != false %}
