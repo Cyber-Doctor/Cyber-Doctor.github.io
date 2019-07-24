@@ -28,7 +28,7 @@
         <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">
           <i class="fa fa-address-card-o">
             {% if page.btn_text != false %}
-            <p class="btn_text">Contact us</p>
+            <p class="btn_text">Contact_us</p>
             {% endif %}
           </i>
         </a>
@@ -48,7 +48,7 @@
         <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
           <i class="fa fa-arrows">
             {% if page.btn_text != false %}
-            <p class="btn_text" id="mxmz_text">Maximize</p>
+            <p class="btn_text" id="mxmz_text">Zoom_in</p>
             {% endif %}
           </i>
         </a>
@@ -142,7 +142,7 @@
       ctner.style.top = "0";
       ctner.style.maxWidth = "100%";
       if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "Restore";
+        document.getElementById("mxmz_text").innerHTML = "Zoom_out";
       }
       ctner_state = 1;
     } else if (ctner_state == 1) {
@@ -151,7 +151,7 @@
       ctner.style.top = "2%";
       ctner.style.maxWidth = "1240px";
       if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "Maximize";
+        document.getElementById("mxmz_text").innerHTML = "Zoom_in";
       }
       ctner_state = 0;
     }
