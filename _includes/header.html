@@ -6,13 +6,13 @@
         <!-- home -->
         {% if page.home_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.baseurl }}">
-          [ <i class="fa fa-home">
+          <i class="fa fa-home">
             {% if page.btn_text != false %}
             <p class="btn_text">Home</p>
             {% endif %}
-          </i> ] 
+          </i>
         </a>
-        {% endif %}
+        {% endif %}&nbsp;
         <!-- about -->
         {% if page.about_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
@@ -22,7 +22,7 @@
             {% endif %}
           </i>
         </a>
-        {% endif %}
+        {% endif %}&nbsp;
         <!-- contact us -->
         {% if page.contact_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">
@@ -32,7 +32,7 @@
             {% endif %}
           </i>
         </a>
-        {% endif %}
+        {% endif %}&nbsp;
         <!-- post -->
         {% if page.post_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.posturl }}">
@@ -42,7 +42,7 @@
             {% endif %}
           </i>
         </a>
-        {% endif %}
+        {% endif %}&nbsp;
         <!-- maximize -->
         {% if page.maximize != false %}
         <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
@@ -52,7 +52,7 @@
             {% endif %}
           </i>
         </a>
-        {% endif %}
+        {% endif %}&nbsp;
         <!-- access token -->
         {% if page.encrypted_text == true %}
         <a class="header_btn" id="acs_btn" onclick="apply_token()">
@@ -80,7 +80,7 @@
             <p class="btn_text">Prev</p>
             {% endif %}
           </i>
-        </a>
+        </a>&nbsp;
         <!-- scroll down -->
         <a class="header_btn" onclick="scroll_percentage(0.88)">
           <i class="fa fa-forward">
@@ -88,7 +88,7 @@
             <p class="btn_text">Next</p>
             {% endif %}
           </i>
-        </a>
+        </a>&nbsp;
         <!-- popup table of content -->
         <a class="header_btn popup_btn" onclick="toggle_toc()">
           <i class="fa fa-bars">
