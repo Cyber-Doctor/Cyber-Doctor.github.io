@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Contact us
-toc: false
 home_btn: true
 btn_text: true
 footer: true
 author: ""
+toc: false
 encrypted_text: false
 permalink: /contactus
 ---
