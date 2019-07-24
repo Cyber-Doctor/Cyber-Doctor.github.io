@@ -1,10 +1,13 @@
 ---
+title: "CyberDoctor"
 layout: default
+post_list: ""
 home_btn: true
 btn_text: true
 footer: true
 author: ""
 toc: false
+maximize: false
 encrypted_text: false
 permalink: /contactus
 ---

@@ -7,6 +7,7 @@ btn_text: true
 footer: true
 author: ""
 toc: false
+maximize: false
 encrypted_text: false
 permalink: /
 ---
