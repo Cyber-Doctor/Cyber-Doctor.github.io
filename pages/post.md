@@ -1,4 +1,5 @@
 ---
+title: "CyberDoctor"
 layout: default
 post_list: "date"
 home_btn: true

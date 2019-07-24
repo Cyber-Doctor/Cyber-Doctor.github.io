@@ -1,7 +1,6 @@
 ## Settings
-title: Cyber Doctor
+title: CyberDoctor
 owner: ""
-# url: "akiritsu.github.io"
 baseurl: ""
 abouturl: "/about"
 contacturl: "/contactus"
@@ -21,4 +20,4 @@ statement: "Designed by Cyber Doctor, All Rights Reserved"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 3
 # texts randomly displayed in background
-bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌∽√1234567890"
+bgtext: "αβγδεζηθικλμνξοπρστυφχψω∷∫∮∝∞∧∨∑∏∪∩∈∵∴⊥‖∠⌒⊙≌∽√"
