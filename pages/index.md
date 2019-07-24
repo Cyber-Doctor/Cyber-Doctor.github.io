@@ -1,7 +1,6 @@
 ---
 layout: default
 post_list: "date"
-post_list: ""
 toc: false
 home_btn: true
 btn_text: true
