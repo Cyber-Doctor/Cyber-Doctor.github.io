@@ -11,4 +11,4 @@ encrypted_text: false
 permalink: /
 ---
 
-<div style="width:90%">![img-mbg]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/imgmg.JPG)</div>
+![img-mbg]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/imgmg.JPG = 90%)
