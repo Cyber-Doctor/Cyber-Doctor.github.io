@@ -18,8 +18,8 @@ permalink: /about
 <b><i>Hi</i></b>
 </summary>
 
-<figure>
-<img class="ceo" src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" width="15%" alt="CEO">
+<figure class="ceo">
+<img src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" width="15%" alt="CEO">
 <figcaption>CEO</figcaption>
 </figure>
 
