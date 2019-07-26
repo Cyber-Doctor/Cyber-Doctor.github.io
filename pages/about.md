@@ -25,9 +25,37 @@ permalink: /about
 <details><summary>
 <b><i>사회적기업</i></b>으로 다음과 같은 서비스를 저렴하게 또는 무료로 제공합니다.
 </summary>
-<p>
+<table class="pure-table pure-table-horizontal">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
 
-| 진단 종류 | 서비스 설명  |
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+    </tbody>
+</table>
+
+<ul>
+    <li>진단 종류</li>
+    <li>서비스 설명</li>
+</ul>
 | :------- | :-------- |
 | 모의해킹     | 사내외 서비스의 취약점을 진단하고 대응방안 제시        |
 | 정보보호 컨설팅 | 사내 인적(개인정보),물적 보안 진단 및 대응책 수립      |
