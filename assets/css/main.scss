@@ -99,7 +99,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             display: inline-block;
             .btn_text {
               font-style: normal;
-              margin: 0;
+              margin-bottom: 10px;
               display: inline-block;
               text-transform: capitalize;
               font-family: $font-family;
