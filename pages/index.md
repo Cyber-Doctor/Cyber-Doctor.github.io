@@ -12,4 +12,4 @@ encrypted_text: false
 permalink: /
 ---
 
-![img-mbg]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/imgmg.JPG)
+![img-mbg]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/imgmg.JPG){: .center}
