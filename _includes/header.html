@@ -13,38 +13,17 @@
           </i>
         </a>
         {% endif %}
-        <!-- about --></li><li class="li_left dropdown">
+        <!-- about -->
         {% if page.about_btn != false %}
-
         <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
           <i class="fa fa-user-secret">
             {% if page.btn_text != false %}
             <p class="btn_text">About</p>
             {% endif %}
           </i>
-        </a></li><li class="li_left dropdown">
-        <ul>
-          <li>
-          <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
-            <i class="fa fa-key">
-              {% if page.btn_text != false %}
-              <p class="btn_text">Welcom2e</p>
-              {% endif %}
-            </i>
-          </a></li><li>
-          <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
-            <i class="fa fa-key">
-              {% if page.btn_text != false %}
-              <p class="btn_text">Welcom1e</p>
-              {% endif %}
-            </i>
-          </a>
-          </li>
-        </ul>
-
-
+        </a>
         {% endif %}
-        <!-- contact us --></li><li class="li_left dropdown">
+        <!-- contact us -->
         {% if page.contact_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">
           <i class="fa fa-address-card-o">
@@ -54,7 +33,7 @@
           </i>
         </a>
         {% endif %}
-        <!-- post --></li><li class="li_left dropdown">
+        <!-- post -->
         {% if page.post_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.posturl }}">
           <i class="fa fa-file-archive-o">
@@ -64,7 +43,7 @@
           </i>
         </a>
         {% endif %}
-        <!-- maximize --></li><li class="li_left dropdown">
+        <!-- maximize -->
         {% if page.maximize != false %}
         <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
           <i class="fa fa-arrows">
@@ -74,7 +53,7 @@
           </i>
         </a>
         {% endif %}
-        <!-- access token --></li><li class="li_left dropdown">
+        <!-- access token -->
         {% if page.encrypted_text == true %}
         <a class="header_btn" id="acs_btn" onclick="apply_token()">
           <i class="fa fa-key">
