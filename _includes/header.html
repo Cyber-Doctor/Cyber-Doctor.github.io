@@ -12,11 +12,11 @@
             {% endif %}
           </i>
         </a>
-        {% endif %}
+        {% endif %}</li>
         <!-- about -->
         {% if page.about_btn != false %}
 
-        <div class="btn_hi">
+
         <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
           <i class="fa fa-user-secret">
             {% if page.btn_text != false %}
@@ -24,19 +24,27 @@
             {% endif %}
           </i>
         </a>
-        <div class="btn_hide">
+        <ul><li class="li_left dropdown">
+        <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
+          <i class="fa fa-key">
+            {% if page.btn_text != false %}
+            <p class="btn_text">Welcom2e</p>
+            {% endif %}
+          </i>
+        </a>
 
         <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
           <i class="fa fa-key">
             {% if page.btn_text != false %}
-            <p class="btn_text">Welcome</p>
+            <p class="btn_text">Welcom1e</p>
             {% endif %}
           </i>
         </a>
-        </div>
-        </div>
+        </li></ul>
+
 
         {% endif %}
+        <li class="li_left dropdown">
         <!-- contact us -->
         {% if page.contact_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">

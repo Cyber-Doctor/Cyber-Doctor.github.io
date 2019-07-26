@@ -111,11 +111,11 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             }
           }
 
-          .btn_hide {
+          li ul {
             display: none;
-            .btn_hi:hover {
+          }
+          li:hover ul {
               display: block;
-            }
           }
 
 
