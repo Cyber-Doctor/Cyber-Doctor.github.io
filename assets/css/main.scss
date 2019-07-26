@@ -96,7 +96,7 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
             }
           }
           .header_btn {
-            display: inline-block;
+            display: none;
             .btn_text {
               font-style: normal;
               margin: 0;
@@ -106,10 +106,12 @@ $blk-timing-function: cubic-bezier(0.98, -0.23, 0.65, 0.7);
               font-size: $font-smaller;
             }
             .btn_text:hover {
+              display: block;
               font-weight: 400;
               text-decoration: underline;
             }
           }
+
           .access_token {
             resize: none;
             float: right;
