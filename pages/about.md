@@ -20,7 +20,7 @@ permalink: /about
 
 <figure>
 <img class="ceo" src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" width="15%" alt="CEO">
-<figcaption><center>CEO</center></figcaption>
+<figcaption>CEO</figcaption>
 </figure>
 
 Hi~!
