@@ -17,7 +17,11 @@ permalink: /about
 <details open><summary>
 <b><i>Hi</i></b>
 </summary>
-&nbsp;&nbsp;<img class="ceo" src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" width="15%" alt="CEO">
+
+<figure>
+<img class="ceo" src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" width="15%" alt="CEO">
+<figcaption><center>CEO</center></figcaption>
+</figure>
 
 Hi~!
 1234567890
