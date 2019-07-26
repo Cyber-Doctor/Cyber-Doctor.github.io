@@ -22,6 +22,14 @@
             {% endif %}
           </i>
         </a>
+
+        <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
+          <i class="fa fa-user-secret">
+            {% if page.btn_text != false %}
+            <p class="btn_text">Welcome</p>
+            {% endif %}
+          </i>
+        </a>
         {% endif %}
         <!-- contact us -->
         {% if page.contact_btn != false %}
