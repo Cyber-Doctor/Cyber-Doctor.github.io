@@ -5,6 +5,7 @@ baseurl: ""
 abouturl: "/about"
 contacturl: "/contactus"
 posturl: "/post"
+ceourl: "/welcome"
 permalink: /:title/
 description: ""
 markdown: kramdown
