@@ -29,38 +29,26 @@ permalink: /about
     <thead>
         <tr>
             <th>#</th>
-            <th>Make</th>
-            <th>Model</th>
-            <th>Year</th>
+            <th>진단 종류</th>
+            <th>서비스 설명</th>
         </tr>
     </thead>
 
     <tbody>
         <tr>
             <td>1</td>
-            <td>Honda</td>
-            <td>Accord</td>
-            <td>2009</td>
+            <td>모의해킹</td>
+            <td>사내외 서비스의 취약점을 진단하고 대응방안 제시</td>
         </tr>
 
         <tr>
             <td>2</td>
-            <td>Toyota</td>
-            <td>Camry</td>
-            <td>2012</td>
+            <td>정보보호 컨설팅</td>
+            <td>사내 인적(개인정보),물적 보안 진단 및 대응책 수립</td>
         </tr>
     </tbody>
 </table>
 
-<ul>
-    <li>진단 종류</li>
-    <li>서비스 설명</li>
-</ul>
-| :------- | :-------- |
-| 모의해킹     | 사내외 서비스의 취약점을 진단하고 대응방안 제시        |
-| 정보보호 컨설팅 | 사내 인적(개인정보),물적 보안 진단 및 대응책 수립      |
-
-</p>
 </details>
 
 <details><summary>
@@ -69,8 +57,8 @@ permalink: /about
 <p>
 
 
-* 2019.07 : CyberDoctor 개인사업자 등록
-* 2019.08 : CyberDoctor 법인전환, 사회적기업
+- 2019.07 : CyberDoctor 개인사업자 등록<br>
+- 2019.08 : CyberDoctor 법인전환, 사회적기업
 
 </p>
 </details>
