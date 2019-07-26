@@ -11,28 +11,28 @@
             <p class="btn_text">Home</p>
             {% endif %}
           </i>
-        </a>
+        </a></li>
         {% endif %}
         <!-- about -->
         {% if page.about_btn != false %}
 
-
+        <li class="li_left dropdown">
         <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
           <i class="fa fa-user-secret">
             {% if page.btn_text != false %}
             <p class="btn_text">About</p>
             {% endif %}
           </i>
-        </a>
-        <ul><li>
+        </a></li>
+        <ul><li class="li_left dropdown">
         <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
           <i class="fa fa-key">
             {% if page.btn_text != false %}
             <p class="btn_text">Welcom2e</p>
             {% endif %}
           </i>
-        </a>
-
+        </a></li>
+        <li class="li_left dropdown">
         <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
           <i class="fa fa-key">
             {% if page.btn_text != false %}
@@ -44,7 +44,7 @@
 
 
         {% endif %}
-        <!-- contact us -->
+        <!-- contact us --><li class="li_left dropdown">
         {% if page.contact_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">
           <i class="fa fa-address-card-o">
@@ -52,9 +52,9 @@
             <p class="btn_text">ContactUs</p>
             {% endif %}
           </i>
-        </a>
+        </a></li>
         {% endif %}
-        <!-- post -->
+        <!-- post --><li class="li_left dropdown">
         {% if page.post_btn != false %}
         <a class="header_btn" href="{{ site.url }}{{ site.posturl }}">
           <i class="fa fa-file-archive-o">
@@ -62,9 +62,9 @@
             <p class="btn_text">Post</p>
             {% endif %}
           </i>
-        </a>
+        </a></li>
         {% endif %}
-        <!-- maximize -->
+        <!-- maximize --><li class="li_left dropdown">
         {% if page.maximize != false %}
         <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
           <i class="fa fa-arrows">
@@ -72,7 +72,7 @@
             <p class="btn_text" id="mxmz_text">ZoomIn</p>
             {% endif %}
           </i>
-        </a>
+        </a></li>
         {% endif %}
         <!-- access token -->
         {% if page.encrypted_text == true %}
