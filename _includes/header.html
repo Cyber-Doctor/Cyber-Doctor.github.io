@@ -16,31 +16,23 @@
         <!-- about -->
         {% if page.about_btn != false %}
 
-        <div class="dropdown">
-          <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
-            <i class="fa fa-user-secret">
-              <p class="btn_text">About</p>
-            </i>
-          </a>
-          <div class="dropdown-content">
 
-          <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
-            <i class="fa fa-user-secret">
-              {% if page.btn_text != false %}
-              <p class="btn_text">About</p>
-              {% endif %}
-            </i>
-          </a>
+        <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
+          <i class="fa fa-user-secret">
+            {% if page.btn_text != false %}
+            <p class="btn_text">About</p>
+            {% endif %}
+          </i>
+        </a>
 
-          <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
-            <i class="fa fa-key">
-              {% if page.btn_text != false %}
-              <p class="btn_text">Welcome</p>
-              {% endif %}
-            </i>
-          </a>
-          </div>
-        </div>
+        <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
+          <i class="fa fa-key">
+            {% if page.btn_text != false %}
+            <p class="btn_text">Welcome</p>
+            {% endif %}
+          </i>
+        </a>
+
 
         {% endif %}
         <!-- contact us -->
