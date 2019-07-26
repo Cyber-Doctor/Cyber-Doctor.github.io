@@ -17,8 +17,8 @@ permalink: /about
 <details open><summary>
 <b><i>Hi</i></b>
 </summary>
+<img src="{{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg" alt="CEO">
 
-![CEO]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/ceo.jpg)
 Hi~!
 1234567890
 
