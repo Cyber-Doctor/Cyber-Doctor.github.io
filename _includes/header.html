@@ -17,16 +17,15 @@
         {% if page.about_btn != false %}
 
         <div class="dropdown">
-          <button class="dropbtn">Dropdown</button>
-          <div class="dropdown-content">
-
+          <button class="dropbtn">
           <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
             <i class="fa fa-user-secret">
               {% if page.btn_text != false %}
               <p class="btn_text">About</p>
               {% endif %}
             </i>
-          </a>
+          </a></button>
+          <div class="dropdown-content">
 
           <a class="header_btn" href="{{ site.url }}{{ site.ceourl }}">
             <i class="fa fa-key">
