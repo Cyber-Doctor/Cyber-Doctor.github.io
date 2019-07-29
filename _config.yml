@@ -8,6 +8,7 @@ posturl: "/post"
 ceourl: "/welcome"
 permalink: /:title/
 description: ""
+disqus_shortname: 'CyberDoctor'
 markdown: kramdown
 webrick:
   headers:
