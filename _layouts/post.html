@@ -8,4 +8,8 @@ layout: default
 {% include post_info.html %}
 {{ content }}
 
-{% if page.comments %} <div id="post-disqus" class="container"> {% include disqus.html %} </div> {% endif %}
+{% if page.comments %}
+  <div id="post-disqus" class="container">
+    {% include disqus.html %}
+  </div>
+{% endif %}
