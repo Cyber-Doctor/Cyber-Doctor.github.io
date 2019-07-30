@@ -455,7 +455,8 @@ body {
 }
 
 #disqus_thread {
-  width: 100%
+  background-color: rgba($color-postbg, 0.72);
   border-style: 0px solid;
   padding: 10px;
+  margin: 5px;
 }
