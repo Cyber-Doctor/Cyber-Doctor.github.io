@@ -1,7 +1,7 @@
 # Basic settings
 description:  사이버닥터(CyberDoctor)
 baseurl: "/"
-url: "" 
+url: "https://cyber-doctor.github.io/" 
 twitter_username: 
 github_username:  
 include: ['_pages']
@@ -13,6 +13,7 @@ lsi:         false
 excerpt_separator: "\n\n"
 gems:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-paginate
 exclude:
   - Gemfile
