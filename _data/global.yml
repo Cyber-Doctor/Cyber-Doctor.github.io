@@ -1,0 +1,25 @@
+# Site Settings
+title: '사이버닥터'
+description: 'CyberDoctor'
+url: 'https://cyber-doctor.github.io/'
+
+# Admin Settings
+admin_name: 'Dr.Cyber'
+admin_email: 'dr.cybersecu@gmail.com'
+
+#####################################################################
+#About Page
+author_name: 'CEO'
+author_profession: 'Full Stack Developer'
+author_description: 'hi '
+author_image: '/images/author.jpg'
+
+# social proiles
+facebook: ''
+twitter: ''
+linkedin: ''
+instagram: ''
+github: ''
+google-plus: ''
+stackoverflow: ''
+#####################################################################

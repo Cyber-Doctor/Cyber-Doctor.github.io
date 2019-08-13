@@ -1,199 +1,95 @@
-<div class="header">
-  <nav class="nav_bar">
-    <ul>
-      <!-- left header -->
-      <li class="li_left dropdown">
-        <!-- home -->
-        {% if page.home_btn != false %}
-        <a class="header_btn" href="{{ site.url }}{{ site.baseurl }}">
-          <i class="fa fa-home">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Home</p>
-            {% endif %}
-          </i>
-        </a>
-        {% endif %}
-        <!-- about -->
-        {% if page.about_btn != false %}
-        <a class="header_btn" href="{{ site.url }}{{ site.abouturl }}">
-          <i class="fa fa-user-secret">
-            {% if page.btn_text != false %}
-            <p class="btn_text">About</p>
-            {% endif %}
-          </i>
-        </a>
-        {% endif %}
-        <!-- contact us -->
-        {% if page.contact_btn != false %}
-        <a class="header_btn" href="{{ site.url }}{{ site.contacturl }}">
-          <i class="fa fa-address-card-o">
-            {% if page.btn_text != false %}
-            <p class="btn_text">ContactUs</p>
-            {% endif %}
-          </i>
-        </a>
-        {% endif %}
-        <!-- post -->
-        {% if page.post_btn != false %}
-        <a class="header_btn" href="{{ site.url }}{{ site.posturl }}">
-          <i class="fa fa-file-archive-o">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Post</p>
-            {% endif %}
-          </i>
-        </a>
-        {% endif %}
-        <!-- maximize -->
-        {% if page.maximize != false %}
-        <a class="header_btn" id="mxmz_btn" onclick="toggle_maximize()">
-          <i class="fa fa-arrows">
-            {% if page.btn_text != false %}
-            <p class="btn_text" id="mxmz_text">ZoomIn</p>
-            {% endif %}
-          </i>
-        </a>
-        {% endif %}
-        <!-- access token -->
-        {% if page.encrypted_text == true %}
-        <a class="header_btn" id="acs_btn" onclick="apply_token()">
-          <i class="fa fa-key">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Token</p>
-            {% endif %}
-          </i>
-        </a>
-        <textarea
-          class="access_token"
-          rows="1"
-          cols="8"
-          id="acs_tkn"
-        ></textarea>
-        {% endif %}
-      </li>
-      <!-- right header -->
-      <span class="span_right">
-        <!-- popup table of content -->
-        {% if page.toc != false %}
-        <a class="header_btn" onclick="scroll_percentage(-0.88)">
-          <i class="fa fa-backward">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Prev</p>
-            {% endif %}
-          </i>
-        </a>
-        <!-- scroll down -->
-        <a class="header_btn" onclick="scroll_percentage(0.88)">
-          <i class="fa fa-forward">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Next</p>
-            {% endif %}
-          </i>
-        </a>
-        <!-- popup table of content -->
-        <a class="header_btn popup_btn" onclick="toggle_toc()">
-          <i class="fa fa-bars">
-            {% if page.btn_text != false %}
-            <p class="btn_text">Content</p>
-            {% endif %}
-          </i>
-        </a>
-        {% else site.title %}
-        <a class="title">{{ site.title }}</a>
-        {% if site.owner != ""%}
-        <a class="owner"> - {{ site.owner }}</a>
-        {% endif %}{% endif %}
-      </span>
-    </ul>
-  </nav>
-  <hr />
-</div>
-{% if page.toc != false %}
-<!-- table of content -->
-<div class="div_toc toc" id="popup_toc">
-  {% if page.toc_level %} {% assign toclv = page.toc_level %} {% elsif
-  site.toc_level %} {% assign toclv = site.toc_level %} {% else} {% assign toclv
-  = 3 %} {% endif %} {% include toc.html html=page sanitize=true class="ul_toc"
-  id="ul_toc" h_min=1 h_max=toclv %}
-</div>
-<!-- toggle toc -->
-<script>
-  function toggle_toc() {
-    var popup = document.getElementById("popup_toc");
-    popup.classList.toggle("show");
-  }
-</script>
-<!-- scroll page -->
-<script>
-  function scroll_percentage(mtpler) {
-    document
-      .getElementById("div_atcl")
-      .scrollBy(0, window.innerHeight * mtpler);
-  }
-</script>
-{% endif %} {% if page.maximize != false %}
-<!-- toggle maximize -->
-<script>
-  var ctner_state = 0;
-  var ctner = document.getElementById("ctner");
-  function toggle_maximize() {
-    if (ctner_state == 0) {
-      ctner.style.width = "100%";
-      ctner.style.height = "100%";
-      ctner.style.top = "0";
-      ctner.style.maxWidth = "100%";
-      if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "ZoomOut";
-      }
-      ctner_state = 1;
-    } else if (ctner_state == 1) {
-      ctner.style.width = "84%";
-      ctner.style.height = "97%";
-      ctner.style.top = "2%";
-      ctner.style.maxWidth = "1240px";
-      if (document.getElementById("mxmz_text")) {
-        document.getElementById("mxmz_text").innerHTML = "ZoomIn";
-      }
-      ctner_state = 0;
-    }
-  }
-</script>
-{% endif %} {% if page.encrypted_text == true %}
-<!-- encrypt and decrypt -->
-<script
-  src="{{ site.url }}{{ site.baseurl }}{{ site.assets_path }}/js/sjcl.js"
-  async
-></script>
-<script>
-  function decrypt_all(pwd, class_name) {
-    var elem_clct = document.getElementsByClassName(class_name);
-    if (elem_clct.length == 0) {
-      console.log("No texts to decrypt!");
-      return false;
-    }
-    for (acc = 0; acc < elem_clct.length; acc++) {
-      var encrypted = elem_clct[acc].innerHTML;
-      var ct =
-        '{"iv":"' +
-        encrypted.substring(0, 22) +
-        '==",salt:"","ct":"' +
-        encrypted.substring(22) +
-        '"}';
-      try {
-        var txt = sjcl.json.decrypt(pwd, ct);
-      } catch (e) {
-        alert("Invalid Access Token!");
-        return;
-      }
-      elem_clct[acc].innerHTML = txt;
-    }
-    return true;
-  }
-  function apply_token() {
-    var tkn = document.getElementById("acs_tkn");
-    if (decrypt_all(tkn.value, "encrypted")) {
-      tkn.style.display = "none";
-      document.getElementById("acs_btn").style.display = "none";
-    }
-  }
-</script>
-{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} ♥ {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} ♥ {{ site.data.global.title }}{% else %}{{ site.data.global.title }} ♥ {{ site.data.global.description }}{% endif %}</title>
+    <meta name="description" content="{{ page.lead_text }}" />
+
+
+    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+    <html itemscope itemtype="http://schema.org/Product">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="{{ page.title }}">
+    <meta itemprop="description" content="{{ page.lead_text }}"> {% if page.image %}
+    <meta itemprop="image" content="{{ page.url }}{{ page.image }}"> {% else %}
+    <meta content="{{ site.url }}/images/default.jpg" property="og:image"> {% endif %}
+
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="{{ site.url }}{{ page.url }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.lead_text }}">
+    <meta name="twitter:creator" content="{{ site.data.global.author_name }}"> {% if page.image %}
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}"> {% else %}
+    <meta name="twitter:image" content="{{ site.url }}/images/default.jpg"> {% endif %}
+
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" /> {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" /> {% else %}
+    <meta property="og:image" content="{{ site.url }}/images/default.jpg" /> {% endif %}
+    <meta property="og:description" content="{{ page.lead_text }}" />
+    <meta property="og:site_name" content="{{site.data.global.title}}" /> {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url"> {% endif %} {% if page.categories %} {% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section"> {% endfor %} {% endif %} {% if page.tags %} {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag"> {% endfor %} {% endif %}
+
+    <!-- Bootstrap -->
+    <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/css/custom.css" rel="stylesheet">
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default nav-down bg-color">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand nav-link" href="/">{{ site.data.global.title }}</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    {% for item in site.data.nav.main %}
+                    <li><a href="{{ item.url }}">{{ item.text }}</a></li>
+                    {% endfor %}
+                    <li>
+                        <div class="col-sm-3 col-md-3" id="search-div">
+                            <form class="navbar-form" role="search" action="get" id="site_search">
+                                <div class="input-group">
+                                    <input type="text" id="search_box" class="form-control" placeholder="Search" name="q">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" id="search-btn" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <ul id="search_results"></ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
