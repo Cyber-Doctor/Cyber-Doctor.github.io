@@ -90,12 +90,12 @@ kramdown:
 Global Configuration( global.yml):
 ``` yaml
 # Site Settings
-title: 'Lav Vishwakarma'
+title: 'CyberDoctor'
 description: 'My personal Blog'
 url: 'https://cyber-doctor.github.io'
 
 # Admin Settings
-admin_name: 'Lav Vishwakarma'
+admin_name: 'CyberDoctor'
 admin_email: 'lav.kumar.dev@gmail.com'
 
 #####################################################################
