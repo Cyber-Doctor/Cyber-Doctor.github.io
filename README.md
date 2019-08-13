@@ -1,4 +1,4 @@
-# feature-blog-jekyll [![Code Climate](https://codeclimate.com/github/lavkumarv/feature-blog-jekyll/badges/gpa.svg)](https://codeclimate.com/github/lavkumarv/feature-blog-jekyll) <a href="https://codeclimate.com/github/lavkumarv/feature-blog-jekyll"><img src="https://codeclimate.com/github/lavkumarv/feature-blog-jekyll/badges/issue_count.svg" /></a>
+# feature-blog-jekyll [![Code Climate](https://codeclimate.com/github/cyber-doctor/feature-blog-jekyll/badges/gpa.svg)](https://codeclimate.com/github/cyber-doctor/feature-blog-jekyll) <a href="https://codeclimate.com/github/cyber-doctor/feature-blog-jekyll"><img src="https://codeclimate.com/github/cyber-doctor/feature-blog-jekyll/badges/issue_count.svg" /></a>
 
 Feature Blog is a minimalist, beautiful, responsive theme for Jekyll. It is built using the Bootstrap 3.
 
@@ -27,7 +27,7 @@ Home Page:
 ## Basic Setup for a new Jekyll site
 
 1. [Install Jekyll](http://jekyllrb.com) if you haven't already.
-2. Fork the [Feature Blog Theme](https://github.com/lavkumarv/feature-blog-jekyll/fork)
+2. Fork the [Feature Blog Theme](https://github.com/cyber-doctor/feature-blog-jekyll/fork)
 3. Clone the repo you just forked.
 4. Edit `_config.yml` to personalize your site.
 5. Check out the sample posts in `_posts` to see examples for pulling in large feature images, assigning categories and tags, and other YAML data.
@@ -43,9 +43,9 @@ Home Page:
 # Basic settings
 description:  This is personal blog.
 baseurl: "/"
-url: "https://lavkumarv.github.io"
+url: "https://cyber-doctor.github.io"
 twitter_username: LAV_K_V
-github_username:  lavkumarv
+github_username:  cyber-doctor
 include: ['_pages']
 
 # Build settings
@@ -92,7 +92,7 @@ Global Configuration( global.yml):
 # Site Settings
 title: 'Lav Vishwakarma'
 description: 'My personal Blog'
-url: 'https://lavkumarv.github.io'
+url: 'https://cyber-doctor.github.io'
 
 # Admin Settings
 admin_name: 'Lav Vishwakarma'
@@ -112,12 +112,12 @@ application which is used by 65,000+ business worldwide. '
 author_image: '/images/author.jpg'
 
 # social proiles
-facebook: 'https://www.facebook.com/lavkumarv'
+facebook: 'https://www.facebook.com/cyber-doctor'
 twitter: 'https://twitter.com/LAV_K_V'
 linkedin: 'https://www.linkedin.com/in/lav-vishwakarma/'
 instagram: 'https://www.instagram.com/vishwakarmalav/'
-github: 'https://github.com/lavkumarv'
-google-plus: 'https://plus.google.com/+LAVKUMARVISHWAKARMAdev'
+github: 'https://github.com/cyber-doctor'
+google-plus: 'https://plus.google.com/+cyber-doctorISHWAKARMAdev'
 stackoverflow: 'http://stackoverflow.com/users/4703818/lav-kumar-vishwakarma'
 #####################################################################
 ---
@@ -161,7 +161,7 @@ Contributions are welcome!. Feel free to add a new feature or fix a bug.
 
 ## Authors
 
-* **Lav Kumar Vishwakarma** - *Initial work* - [lavkumarv](https://github.com/lavkumarv)
+* **Lav Kumar Vishwakarma** - *Initial work* - [cyber-doctor](https://github.com/cyber-doctor)
 
 ## License
 
