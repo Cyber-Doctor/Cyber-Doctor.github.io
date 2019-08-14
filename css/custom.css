@@ -1,20 +1,5 @@
 @charset "utf-8";
 
-// global reset
-$color-primary: rgb(131, 148, 150);
-$color-warning: rgb(220, 50, 47);
-$color-bg: rgb(0,43, 54);
-$color-postbg: rgb(7, 54, 66);
-$font-size-h1: 23px;
-$font-size-h2: 23px;
-$font-size-h3: 21px;
-$font-size-h4: 21px;
-$font-size-h5: 19.5px;
-$font-size-h6: 16px;
-$font-size-primary: 18.5px;
-$font-smaller: 20px;
-$font-bigger: 24px;
-
 body {
     padding-top: 65px;
     z-index: 1
