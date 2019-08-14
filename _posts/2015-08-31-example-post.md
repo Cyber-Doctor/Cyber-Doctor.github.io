@@ -1,23 +1,68 @@
 ---
 layout: blog
 title: 'Sample post to check the functionality'
-date: 2017-01-24 12:11:34
+date: 2019-08-14
 categories: blog
-tags: code sample
-image: '/images/default.jpg'
-lead_text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.'
+tags: sample
+image: '/images/mac.jpg'
+lead_text: 'Test Sample'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+## Style Test Below
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+### Text
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+Books are the quietest and most constant of friends; they are the most accessible and wisest of counsellors, and the most patient of teachers - Charles W. Eliot. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+normal, **bold**, *italic*, ~~strikethrough~~, `keyword`, [link](www.google.com)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+> blockquote
+>
+>I had learnt to seek intensity more of life, a concentrated sense of life - Nina Berberova. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+### Code
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita maiores quisquam id sunt, a architecto molestias velit, distinctio quidem non, nostrum provident quibusdam enim. Neque ipsam temporibus commodi facere minima.
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+### Formula
+
+$$
+NADH+Q+5\;H_{matrix}^{+}\rightarrow NAD^{+}+QH_{2}+4\;H_{intermembrane}^{+}\!
+$$
+
+### List
+1. ordered list item 1
+2. ordered list item 2
+   1. sublist
+      1. subsublist
+* unordered list  
+     
+* unordered sublist
+  * subsublist
+    * subsubsublist
+
+### horizontal line
+
+***
+
+### Table
+
+| surprise | surprise  | maza faka |
+| :------- | :-------- | :-------- |
+| fark     | Ya        | maza faka |
+| surprise | babe      | surprise  |
+| surprise | maza faka | surprise  |
+| surprise | maza faka | surprise surprise surprise maza faka maza faka maza faka kakakakak |
+
+### image
+![img-smpl]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/img-sample.jpg)
+
+### heading
+#### This is heading 4
+##### This is heading 5
+###### This is heading 6
