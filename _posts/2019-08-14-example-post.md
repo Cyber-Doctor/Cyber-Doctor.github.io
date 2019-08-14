@@ -55,7 +55,7 @@ end
 
 
 ### image
-![img-smpl]({"{{site.url}}/images/mac.jpg})
+![img-smpl]({"{{site.url}}/images/mac.jpg"})
 
 ### heading
 # This is heading 1
