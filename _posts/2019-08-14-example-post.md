@@ -29,6 +29,9 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+$$
+NADH+Q+5\;H_{matrix}^{+}\rightarrow NAD^{+}+QH_{2}+4\;H_{intermembrane}^{+}\!
+$$
 
 ### List
 1. ordered list item 1
@@ -47,15 +50,15 @@ end
 
 ### Table
 
-| 1234567890 | abcdefghi | ㄱㄴㄷㄹㅁ |
-| :--------- | :-------- | :-------- |
-| 0123456789 | iabcdefgh | ㅁㄱㄴㄷㄹ |
-| 9012345678 | hiabcdefg | ㄹㅁㄱㄴㄷ |
-| 8901234567 | ghiabcdef | ㄷㄹㅁㄱㄴ |
+| 1234567890  | abcdefghi  | ㄱㄴㄷㄹㅁ  |
+| :---------  | :--------  | :--------  |
+| 0123456789  | iabcdefgh  | ㅁㄱㄴㄷㄹ  |
+| 9012345678  | hiabcdefg  | ㄹㅁㄱㄴㄷ  |
+| 8901234567  | ghiabcdef  | ㄷㄹㅁㄱㄴ  |
 
 
 ### image
-![img-smpl]({"{{site.url}}/images/mac.jpg"})
+![img-smpl]({{site.url}}/images/mac.jpg})
 
 ### heading
 # This is heading 1
