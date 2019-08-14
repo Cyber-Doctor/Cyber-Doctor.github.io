@@ -14,7 +14,7 @@ lead_text: 'Test Sample'
 
 Books are the quietest and most constant of friends; they are the most accessible and wisest of counsellors, and the most patient of teachers - Charles W. Eliot. 
 
-normal, **bold**, *italic*, ~~strikethrough~~, `keyword`, [link](www.google.com)
+normal, **bold**, *italic*, ~~strikethrough~~, `keyword`, G[link](www.google.com)
 
 > blockquote
 >
@@ -47,15 +47,15 @@ end
 
 ### Table
 
-| surprise | surprise  | maza faka |
-| :------- | :-------- | :-------- |
-| fark     | Ya        | maza faka |
-| surprise | babe      | surprise  |
-| surprise | maza faka | surprise  |
-| surprise | maza faka | surprise surprise surprise maza faka maza faka maza faka kakakakak |
+| 1234567890 | abcdefghi | ㄱㄴㄷㄹㅁ |
+| :--------- | :-------- | :-------- |
+| 0123456789 | iabcdefgh | ㅁㄱㄴㄷㄹ |
+| 9012345678 | hiabcdefg | ㄹㅁㄱㄴㄷ |
+| 8901234567 | ghiabcdef | ㄷㄹㅁㄱㄴ |
+
 
 ### image
-![img-smpl]({{site.url}}{{site.baseurl}}{{site.assets_path}}/img/img-sample.jpg)
+![img-smpl]({images/mac.jpg)
 
 ### heading
 #### This is heading 4
