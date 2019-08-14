@@ -4,7 +4,7 @@ title: 'Sample post to check the functionality'
 date: 2019-08-14
 categories: blog
 tags: sample
-image: '/images/mac.jpg'
+image: '/images/default.jpg'
 lead_text: 'Test Sample'
 ---
 
@@ -29,11 +29,6 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-### Formula
-
-$$
-NADH+Q+5\;H_{matrix}^{+}\rightarrow NAD^{+}+QH_{2}+4\;H_{intermembrane}^{+}\!
-$$
 
 ### List
 1. ordered list item 1
