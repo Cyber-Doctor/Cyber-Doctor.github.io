@@ -48,7 +48,7 @@ nav {
 .blog-heading {
     --x-height-multiplier: 0.363;
     --baseline-multiplier: 0.157;
-    font-family: HelveticaNeue, AppleSDGothicNeo-Regular, sans-serif;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 40px;
@@ -60,7 +60,7 @@ nav {
 
 h4 {
     margin-top: 39px;
-    font-family: HelveticaNeue, AppleSDGothicNeo-Regular, sans-serif;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     letter-spacing: -.02em;
     font-weight: 700;
     font-style: normal;
@@ -72,7 +72,7 @@ h4 {
 
 pre {
     margin-top: 43px;
-    font-family: AppleSDGothicNeo-Light, 'HelveticaNeue', 'Malgun Gothic', Tahoma, sans-serif;
+    font-family: Menlo, Monaco, "Courier New", Courier, monospace;
     font-size: 16px;
     background: rgba(0, 0, 0, .05);
     padding: 20px;
@@ -88,7 +88,7 @@ pre {
     background-color: transparent;
     transition: .2s background-color;
     cursor: pointer;
-    font-family: 'Apple SD Gothic Neo', 'Droid Sans', 'Spoqa Han Sans', Arial, 'HelveticaNeue', sans-serif;
+    font-family: medium-content-slab-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 400;
     font-style: italic;
     font-size: 28px;
@@ -106,7 +106,7 @@ pre {
 body, p {
     --x-height-multiplier: 0.35;
     --baseline-multiplier: 0.179;
-    font-family: AppleSDGothicNeo-Light, Tahoma, 'D2Coding-ligature',  sans-serif;
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
     letter-spacing: .01rem;
     font-weight: 400;
     font-style: normal;
