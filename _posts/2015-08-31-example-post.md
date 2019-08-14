@@ -14,7 +14,7 @@ lead_text: 'Test Sample'
 
 Books are the quietest and most constant of friends; they are the most accessible and wisest of counsellors, and the most patient of teachers - Charles W. Eliot. 
 
-normal, **bold**, *italic*, ~~strikethrough~~, `keyword`, G[link](www.google.com)
+normal, **bold**, *italic*, ~~strikethrough~~, `keyword`, [link](www.google.com)
 
 > blockquote
 >
@@ -55,9 +55,12 @@ end
 
 
 ### image
-![img-smpl]({images/mac.jpg)
+![img-smpl]({"{{site.url}}/images/mac.jpg})
 
 ### heading
+# This is heading 1
+## This is heading 2
+## This is heading 3
 #### This is heading 4
 ##### This is heading 5
 ###### This is heading 6
