@@ -3,12 +3,11 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-7 col-lg-offset-1">
+            <div class="col-lg-7">
 
                 <h1 class="blog-heading hover"><a class="blog-heading hover" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h1>
-                <h4>{{ site.data.global.company_call }}</h4>
-
-                <h4>{{ site.data.global.company_address }}</h4>
+                {{ site.data.global.company_call }}
+                {{ site.data.global.company_address }}
 
             </div>
         </div>
