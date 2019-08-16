@@ -1,7 +1,7 @@
 # Basic settings
 description:  사이버닥터(CyberDoctor)
 baseurl: "/"
-url: "https://cyber-doctor.github.io/" 
+url: "https://cyber-doctor.github.io" 
 twitter_username: 
 github_username:  
 include: ['_pages']
