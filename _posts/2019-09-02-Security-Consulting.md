@@ -1,8 +1,8 @@
 ---
 layout: blog
-title: '보안컨설팅 서비스(9月 접수예정)'
+title: '보안컨설팅 (9月 접수예정)'
 date: 2019-09-02
-categories: SecurityConsulting
+categories: 보안컨설팅(모의해킹)
 tags: 보안컨설팅 모의해킹
 image: '/images/business.jpg'
 lead_text: '보안컨설팅 지원신청'
