@@ -11,8 +11,7 @@ admin_email: 'dr.cybersecu@gmail.com'
 #About Page
 author_name: '정 재 훈'
 author_profession: 'CEO'
-author_description: '안녕하세요.<br>
-                    사이버닥터 CEO 정재훈 입니다.<br>
+author_description: '안녕하세요. 사이버닥터 CEO 정재훈 입니다.<br>
                     &nbsp; 4차 산업혁명 시대에 접어들어 기존 보안 위협들은 물론 앞으로 발생할 다양한 신종 보안 위협들에 대응이 절실해지고 있습니다.
                     하지만, 이러한 사이버 위협으로부터 안전하지 않은 서비스들이 대다수입니다.<br>
                     &nbsp; 저희 사이버닥터(CyberDoctor)는 이런 서비스들을 사전에 점검하여 사이버 공격 예방 및 대응에 앞장서고자 합니다.'
