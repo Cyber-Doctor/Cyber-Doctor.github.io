@@ -357,7 +357,7 @@ input[type="text"]:focus, input[type="submit"]:focus, input[type="button"]:focus
 }
 
 .person-info {
-    margin-top: 18%;
+    margin-top: 10%;
 }
 
 body::-webkit-scrollbar {
