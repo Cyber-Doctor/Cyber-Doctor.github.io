@@ -10,4 +10,4 @@ lead_text: '보안컨설팅 지원신청'
 
 ## 보안컨설팅 지원신청 (9月 접수예정)
 
-<iframe src={{site.data.global.consulting}}>로드 중…</iframe>
+### 9月 中 접수예정
