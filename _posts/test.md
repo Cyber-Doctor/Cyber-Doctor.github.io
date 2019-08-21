@@ -3,8 +3,6 @@ layout: blog
 title: 'Sample post to check the functionality'
 date: ""
 comments: false
-categories: test
-tags: Test
 lead_text: 'Who We Are...'
 ---
 
