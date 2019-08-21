@@ -11,7 +11,11 @@ admin_email: 'dr.cybersecu@gmail.com'
 #About Page
 author_name: '정 재 훈'
 author_profession: 'CEO'
-author_description: '안녕하세요. 사이버닥터 CEO 정재훈 입니다.<br> &nbsp"사이버 보안이 곧 국가 보안"인 시대에서 사이버 공격으로부터 안전하지 않은 <b>[유치원, 초중고, 대학교 / 중소기업 / 지자체 산하기관]</b> 등의 소외계층에 존재하던 문제점들을 해결함으로써 보다 안전하게 고객들에게 서비스 제공 및 관리할 수 있도록 <b>보안컨설팅(모의해킹)</b>을 제공합니다. '
+author_description: '안녕하세요.<br>
+                    사이버닥터 CEO 정재훈 입니다.<br>
+                    &nbsp; 4차 산업혁명 시대에 접어들어 기존 보안 위협들은 물론 앞으로 발생할 다양한 신종 보안 위협들에 대응이 절실해지고 있습니다.
+                    하지만, 이러한 사이버 위협으로부터 안전하지 않은 서비스들이 대다수입니다.<br>
+                    &nbsp; 저희 사이버닥터(CyberDoctor)는 이런 서비스들을 사전에 점검하여 사이버 공격 예방 및 대응에 앞장서고자 합니다.'
 author_image: '/images/author.jpg'
 
 #Contact Page
