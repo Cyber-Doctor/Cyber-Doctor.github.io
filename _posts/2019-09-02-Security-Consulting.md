@@ -8,7 +8,7 @@ image: '/images/business.jpg'
 lead_text: '보안컨설팅 점검 신청'
 ---
 
-## 보안컨설팅 지원신청 (10月)
+## 보안컨설팅 점검신청 (10月)
 
 
 <iframe src={{site.data.global.consulting}}>로드 중…</iframe>
