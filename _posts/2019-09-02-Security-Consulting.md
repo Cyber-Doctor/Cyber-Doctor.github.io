@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: consulting
 title: '보안컨설팅 신청(10月)'
 date: 2019-09-02
 categories: consulting
