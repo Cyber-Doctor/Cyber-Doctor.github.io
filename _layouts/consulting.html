@@ -4,7 +4,7 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-7 col-lg-offset-2">
 
                 {% if page.image or page.video %}
                     <a href="#" class="image-anchor">
@@ -32,7 +32,7 @@
 
 <!-- next and prious button -->
 <div class="page">
-    <div class="col-lg-10 col-lg-offset-1">
+    <div class="col-lg-11">
         {% if page.previous.url %}
         <a href="{{page.previous.url}}"><span class="btn round-btn pull-left">&larr; {{page.previous.title}}</span></a> {% endif %} {% if page.next.url %}
         <a href="{{page.next.url}}"><span class="btn round-btn pull-right">{{page.next.title}} &raquo;</span></a> {% endif %}
