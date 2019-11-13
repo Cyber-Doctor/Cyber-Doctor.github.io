@@ -4,7 +4,7 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-9 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2">
 
                 {% if page.image or page.video %}
                     <a href="#" class="image-anchor">
@@ -21,9 +21,9 @@
                 <h1 class="blog-heading">{{ page.title }}</h1>
                 <p class="time"> <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.date | date: "%d %B %Y" }}</p>
 
+                {{ content }}
 
             </div>
-        {{ content }}
         </div>
     </div>
 </section>
