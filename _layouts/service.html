@@ -1,0 +1,25 @@
+{% include header.html %}
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-7 col-lg-offset-1">
+
+                <br><h1 class='text-center'>Service</h1><br>
+
+                <dl class="dl-horizontal">
+                    <dt>웹 취약점 진단</dt>
+                    <dd>{{ site.data.global.web_vulnerability }}</dd>
+                    <dt>모의해킹</dt>
+                    <dd>{{ site.data.global.pentesting }}</dd>
+                </dl>
+
+            </div>
+            <div class="col-lg-4">
+                {% include sidebar.html %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include footer.html %}
