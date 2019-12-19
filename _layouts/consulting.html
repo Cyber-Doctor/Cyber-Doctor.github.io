@@ -4,7 +4,7 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-7 col-lg-offset-1">
 
                 {% if page.image or page.video %}
                     <a href="#" class="image-anchor">
@@ -23,6 +23,9 @@
 
                 {{ content }}
 
+            </div>
+            <div class="col-lg-4">
+                {% include sidebar.html %}
             </div>
         </div>
     </div>
