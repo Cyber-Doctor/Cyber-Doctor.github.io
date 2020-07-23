@@ -40,3 +40,4 @@ consulting: '"https://docs.google.com/forms/d/e/1FAIpQLSfKoFwwa7-BdsZclt9ukbioXK
 # services
 web_vulnerability: '&nbsp; OWASP-ZAP, OpenVAS, BurpSuite, Nmap, WireShark등의 점검 도구를 활용하여 웹 사이트 전체에 대한 보안 취약점을 진단합니다.'
 pentesting: '&nbsp; 실제 해커가 사용하는 해킹 도구(Metasploit, Script 등)를 활용하여 내부 시스템까지의 침투 가능성 및 중요 정보 탈취 가능성을 진단합니다.'
+wait: '---준비중---'
