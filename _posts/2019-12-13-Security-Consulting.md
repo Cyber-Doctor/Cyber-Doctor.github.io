@@ -1,11 +1,11 @@
 ---
 layout: consulting
-title: '보안컨설팅(웹 취약점 진단) 신청 (기간연장)'
+title: '보안컨설팅 신청 (기간연장)'
 date: 2019-12-13
 categories: consulting
 tags: 보안컨설팅
 image: '/images/business.jpg'
-lead_text: '[코로나19 함께 이겨내요!] 무료 보안컨설팅(웹 취약점 진단) 기간 연장합니다.'
+lead_text: '[코로나19 함께 이겨내요!] 무료 보안컨설팅(웹 취약점 진단) 기간연장 합니다.'
 ---
 
 
